@@ -19,3 +19,4 @@ class car:
 C1 = class.car(brand = "BMW" , color = "White Blue")     
 
 print(C1.brand)
+print("I love GIT HUB")
