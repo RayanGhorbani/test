@@ -9,6 +9,16 @@ class car:
     "model" == 1404
     "brand" == ""
     "color" == ""
+    "quality" == ""
+
+    def __init__(self, brand, color, quality):
+
+        brand = self.brand
+        color = self.color
+        quality = self.quality
+
+
+C1 = class.car(brand = "BMW" , color = "White Blue" , quality = "A+")     
     "Power" == 100
 
     def __init__(self, brand, color, power):
