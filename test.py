@@ -8,7 +8,14 @@ class car:
 
     "model" == 1404
     "brand" == ""
-    def __init__(self):
+    "color" == ""
+
+    def __init__(self, brand, color):
 
         brand = self.brand
+        color = self.color
 
+
+C1 = class.car(brand = "BMW" , color = "White Blue")     
+
+print(C1.brand)
